@@ -14,6 +14,9 @@ We compute:
 - Predictability gain components:
       G_u = -(H_{u+2} - 2 H_{u+1} + H_u),   u = 0..nmax-2
 - The entropy-rate slope h and a linear asymptote line used in plots.
+
+Author: Juan De Gregorio
+Created: Jan 2026
 """
 import itertools
 import numpy as np
