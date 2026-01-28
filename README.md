@@ -1,4 +1,4 @@
-# predictability-gain
+# Predictability Gain
 This repository contains Python code to analyze temporal correlations and memory effects in discrete sequences using information-theoretic tools.
 The code is organized into two independent modules.
 
