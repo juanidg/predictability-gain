@@ -210,6 +210,18 @@ def plot_H_G(H, G, line):
     """Plot H_r and G_u."""
     nmax = len(H) - 1
     n_list = list(range(0, nmax + 1))
+  
+    SMALL_SIZE = 19
+    MEDIUM_SIZE = 26
+    BIGGER_SIZE = 29
+    
+    plt.rc('font', size=MEDIUM_SIZE)          # controls default text sizes
+    plt.rc('axes', titlesize=MEDIUM_SIZE)     # fontsize of the axes title
+    plt.rc('axes', labelsize=MEDIUM_SIZE)    # fontsize of the x and y labels
+    plt.rc('xtick', labelsize=SMALL_SIZE)    # fontsize of the tick labels
+    plt.rc('ytick', labelsize=SMALL_SIZE)    # fontsize of the tick labels
+    plt.rc('legend', fontsize=19)    # legend fontsize
+    #plt.rc('figure', titlesize=BIGGER_SIZE)  # fontsize of the figure title
 
     plt.figure(figsize=(8, 6))
     plt.plot(n_list, np.array(H), "k.--", markersize=17, label=r"$H_r$")
