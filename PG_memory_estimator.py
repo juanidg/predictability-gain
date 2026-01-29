@@ -4,7 +4,7 @@
 Predictability Gain (PG)–based memory estimation for discrete stochastic processes.
 
 This module provides tools to:
-- generate synthetic i.i.d. and Markov sequences,
+- generate synthetic i.i.d. and Markov sequences of known memory,
 - estimate block entropies using the NSB estimator,
 - compute predictability gain components,
 - and infer the effective memory order of a sequence using
@@ -14,7 +14,7 @@ The main entry point for users is:
 
     PG_memory_estimator(S, K, alpha)
 
-which returns the minimal memory order μ that explains the observed
+which returns the minimal memory order mu that explains the observed
 predictability gain structure at significance level alpha.
 
 Author: Juan De Gregorio
